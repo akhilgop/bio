@@ -1,4 +1,4 @@
-$font-primary: 'Poppins', Arial, sans-serif;
+$font-primary: 'Work Sans', sans-serif;
 // Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
@@ -18,7 +18,7 @@ $brand-body-bg: #f9f7f7;
 $input-border-focus: $brand-primary !default;
 $form-group-margin-bottom: 30px !default;
 
-
+@import "modified";
 
 // Mixin
 @mixin transition($transition) {
@@ -515,7 +515,7 @@ header{
 				font-weight: 900;
 				letter-spacing: 2px;
 				@media screen and(max-width: $screen-sm){
-					font-size: 30px;
+					font-size: 22px;
 				}
 			}
 			.tag{
@@ -1229,9 +1229,9 @@ article{
 	}
 }
 .btn-primary {
-	background: $brand-primary;
-	color: $brand-black;
-	border: 2px solid $brand-primary;
+	background: $brand-black;
+	color: $body-bg;
+	border: 2px solid $brand-black;
 	&:hover, &:focus, &:active {
 		background: lighten($brand-primary, 5%)!important;
 		border-color: lighten($brand-primary, 5%)!important;
@@ -1542,7 +1542,7 @@ input[type="text"] {
 	}
 	i{
 		position: absolute;
-		top: -3px;
+		top:auto;
 		left: 0;
 		font-size: 30px;
 		color: $brand-primary;

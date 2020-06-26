@@ -1,3 +1,9 @@
+@media screen and (max-width: 575px) {
+  .customer-logos {
+    padding: 1em 0;
+  }
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -13,7 +19,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
@@ -57,7 +63,7 @@ a:focus, a:active {
 
 p, span {
   margin-bottom: 2em;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 ul, ol {
@@ -72,7 +78,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin: 0 0 30px 0;
   line-height: 1.3;
 }
@@ -292,7 +298,7 @@ header .mysite-navbar-brand {
 header .mysite-navbar-brand .mysite-logo {
   font-size: 24px;
   color: #fff;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-weight: 900;
   display: block;
   text-align: center;
@@ -454,7 +460,7 @@ header .mysite-navbar-brand .mysite-logo.logo:after {
 
 @media screen and (max-width: 768px) {
   #mysite-hero .hero-flex .text-inner h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 
@@ -677,7 +683,7 @@ header .mysite-navbar-brand .mysite-logo.logo:after {
 
 .progress-wrap h3 {
   font-size: 20px;
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -1275,9 +1281,9 @@ article .desc .tag span a {
 }
 
 .btn-primary {
-  background: #ffdd00;
-  color: #000;
-  border: 2px solid #ffdd00;
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1629,7 +1635,7 @@ input[type="text"] {
 
 .mysite-social-icons i {
   position: absolute;
-  top: -3px;
+  top: auto;
   left: 0;
   font-size: 30px;
   color: #ffdd00;
